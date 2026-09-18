@@ -78,10 +78,10 @@
 
         symbols {
             bindings = <
-           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &trans    &trans  &bt BT_SEL 1  &kp C_VOLUME_UP  &kp C_MUTE     &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK             &trans
-&kp TILDE  &trans    &trans  &bt BT_SEL 2  &kp C_VOL_DN     &trans         &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT       &trans                 &trans
-                             &trans        &trans           &trans         &trans     &trans          &trans
+           &kp EXCL  &kp AT      &kp HASH      &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &trans    &bt BT_CLR  &bt BT_SEL 1  &kp C_VOLUME_UP  &kp C_MUTE     &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK             &trans
+&kp TILDE  &trans    &bt BT_NXT  &bt BT_SEL 2  &kp C_VOL_DN     &trans         &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT       &trans                 &trans
+                                 &trans        &trans           &trans         &trans     &trans          &trans
             >;
         };
     };
